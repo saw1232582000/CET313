@@ -8,7 +8,6 @@ dataSet = pd.read_csv("datasets/clinical_record.csv")
 
 # print("\n")
 # print(dataSet.head())
-
 # print("\n")
 # dataSet.info()
 # print("\n")
@@ -18,8 +17,7 @@ dataSet = pd.read_csv("datasets/clinical_record.csv")
 
 
 # analysisData(dataSet)
-
-preprocessData(dataSet)
+# preprocessData(dataSet)
 trainData = getTrainData(dataSet)
-buildModel(trainData)
-# testannModel(trainData)
+# buildModel(trainData)
+testannModel(trainData)
